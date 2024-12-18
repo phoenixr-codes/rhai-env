@@ -1,6 +1,5 @@
 # About `rhai-env`
 
-[![License](https://img.shields.io/crates/l/rhai-env)](https://github.com/license/phoenixr-codes/rhai-env)
 [![crates.io](https://img.shields.io/crates/v/rhai-env?logo=rust)](https://crates.io/crates/rhai-env/)
 [![crates.io](https://img.shields.io/crates/d/rhai-env?logo=rust)](https://crates.io/crates/rhai-env/)
 [![API Docs](https://docs.rs/rhai-env/badge.svg?logo=docs-rs)](https://docs.rs/rhai-env/)
@@ -16,7 +15,7 @@ This crate is heavily inspired by [rhai-fs][].
 
 ```toml
 [dependencies]
-rhai-env = "0.1.0"
+rhai-env = "0.1.2"
 ```
 
 ### [Rhai] script
