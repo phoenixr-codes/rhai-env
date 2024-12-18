@@ -124,7 +124,7 @@ mod doc_gen {
     pub fn generate_doc(writer: &mut impl Write) {
         let mut engine = Engine::new();
         let mut env_module = Module::new();
-        combine_with_exported_module!(&mut env_module, "rhai_env_path", pkg::env_functions);
+        combine_with_exported_module!(&mut env_module, "rhai_env_path", pkg::env_module);
         engine.register_global_module(env_module.into());
 
         // Extract metadata

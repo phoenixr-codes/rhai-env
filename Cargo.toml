@@ -1,6 +1,6 @@
 [package]
 name = "rhai-env"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Jonas da Silva"]
 repository = "https://github.com/phoenixr-codes/rhai-env"
