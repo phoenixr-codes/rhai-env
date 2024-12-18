@@ -1,5 +1,3 @@
-//! Rhai module containing inspection and manipulation utilties of the process's environment
-
 use rhai::plugin::*;
 
 #[export_module]
